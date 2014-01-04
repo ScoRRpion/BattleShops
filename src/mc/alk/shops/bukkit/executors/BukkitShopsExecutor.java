@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.Set;
 
 import mc.alk.bukkit.BukkitPlayer;
-import mc.alk.executors.CustomCommandExecutor;
+import mc.alk.v1r6.executors.CustomCommandExecutor;
 import mc.alk.shops.BattleShops;
 import mc.alk.shops.Defaults;
 import mc.alk.shops.bukkit.controllers.BukkitMessageController;

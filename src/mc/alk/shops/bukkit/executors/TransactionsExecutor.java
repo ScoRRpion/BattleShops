@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.List;
 
 import mc.alk.bukkit.util.BukkitInventoryUtil;
-import mc.alk.executors.CustomCommandExecutor;
+import mc.alk.v1r6.executors.CustomCommandExecutor;
 import mc.alk.mc.MCServer;
 import mc.alk.shops.BattleShops;
 import mc.alk.shops.Defaults;

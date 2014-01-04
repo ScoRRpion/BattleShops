@@ -24,7 +24,6 @@ import mc.alk.mc.StringLocation;
 import mc.alk.mc.blocks.MCChest;
 import mc.alk.mc.blocks.MCSign;
 import mc.alk.mc.factories.ItemFactory;
-import mc.alk.serializers.SQLSerializer;
 import mc.alk.shops.BattleShops;
 import mc.alk.shops.Defaults;
 import mc.alk.shops.controllers.Shop;
@@ -39,7 +38,8 @@ import mc.alk.shops.objects.SignFormatException;
 import mc.alk.shops.objects.SignValues;
 import mc.alk.shops.objects.Transaction;
 import mc.alk.shops.utils.KeyUtil;
-import mc.alk.util.Log;
+import mc.alk.v1r6.serializers.SQLSerializer;
+import mc.alk.v1r6.util.Log;
 
 
 /**
@@ -782,6 +782,12 @@ public class SQLInstance extends SQLSerializer implements ShopsSerializer{
 		}
 
 		executeUpdate("drop table chests");
+	}
+
+	private void createTable(Connection con, String sHOPCHEST_TABLE2,
+			String sql_create_total_table2) {
+		// TODO Auto-generated method stub
+		
 	}
 
 }

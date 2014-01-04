@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-import mc.alk.controllers.MoneyController;
+import mc.alk.v1r6.controllers.MoneyController;
 import mc.alk.mc.MCItemStack;
 import mc.alk.mc.MCPlayer;
 import mc.alk.mc.MCWorld;

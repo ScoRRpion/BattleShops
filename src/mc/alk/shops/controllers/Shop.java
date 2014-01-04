@@ -22,7 +22,7 @@ import mc.alk.shops.objects.ShopSign;
 import mc.alk.shops.utils.CompositeMap;
 import mc.alk.shops.utils.InventoryUtil;
 import mc.alk.shops.utils.KeyUtil;
-import mc.alk.util.Log;
+import mc.alk.v1r6.util.Log;
 
 /**
  *

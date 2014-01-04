@@ -1,7 +1,7 @@
 package mc.alk.shops.controllers;
 
 import mc.alk.shops.serializers.SQLInstance;
-import mc.alk.util.Log;
+import mc.alk.v1r6.util.Log;
 
 public class UpdateController {
 	SQLInstance sql;
